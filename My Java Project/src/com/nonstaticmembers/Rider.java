@@ -3,11 +3,11 @@ package com.nonstaticmembers;
 public class Rider {
 
 	public static void main(String[] args) {
-		//creating a rider
+		//creating a Vehicle1
 		Vehicle r1 = new Vehicle();
 		//displaying
 		System.out.println("Vehicle name is"+r1.name+"colour is"+r1.colour+"speed is"+r1.speed);
-		//creating a rider2
+		//creating a Vehicle2
 		Vehicle r2 = new Vehicle();
 		//assigning
 		r2.name = "pulsar";
